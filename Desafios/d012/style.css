@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: "Passion One", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 10vw;
+    font-variant: small-caps;
+}
+
+header p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+main {
+        font-family: "Sriracha", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 4vw;
+        padding: 10px;
+        text-align: justify;
+}
+
+main > p {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+#joaninha {
+    background-image: url('./imagens/background001.jpg');
+    background-position: right center;
+}
+
+.imagem {
+    background-size: cover;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.418);
+    background-attachment: fixed;
+}
+
+#texto-joaninha {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+}
+
+#carta {
+    background-image: url('./imagens/background002.jpg');
+    background-position: right center;
+}
+
+#texto-carta {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
